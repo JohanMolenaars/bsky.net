@@ -81,7 +81,7 @@ Multiple<Did, Error> resolvedHandle = await api.ResolveHandle(session.Handle, Ca
         
 string text =
         @"Link to Google https://google.com  This post is created with Bsky.Net. A library to interact with Bluesky. A mention to @myself and an emoji '🌅'";
-(string, string?)[] images = new (string, string?)[] {($"data:image/jpeg;base64,{base64String}", "Wijkertoren - Beverwijk") };
+(string, string?)[] images = new (string, string?)[] {($"data:image/jpeg;base64,{base64String}", "Alt tekst") };
          CreatePost post = new(message, images);
 
     //Create a post
