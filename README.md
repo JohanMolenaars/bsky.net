@@ -1,2 +1,2 @@
 # bsky.net
-.Netl ibrary for interacting with the BlueSky API
+.Net library for interacting with the BlueSky API
