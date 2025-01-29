@@ -1,0 +1,29 @@
+{
+  "name": "bsky.net",
+  "version": "3.0.0",
+  "description": "Library for interacting with the BlueSky API.",
+  "main": "index.js",
+  "scripts": {
+    "build": "dotnet build",
+    "pack": "dotnet pack -o ./bin/dist"
+  },
+  "files": [
+    "bin/Release/netstandard2.0/BSky.Net.dll"
+  ],
+  "dependencies": {
+    "System.Net.Http.HttpClient.Json": "9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanMolenaars/bluesky.net.git"
+  },
+  "keywords": [
+    "Bluesky,atproto"
+  ],
+  "author": "Johan Molenaars",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohanMolenaars/bluesky.net/issues"
+  },
+  "homepage": "https://github.com/JohanMolenaars/bluesky.net#readme"
+}
